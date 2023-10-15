@@ -1,4 +1,7 @@
-```
+
+
+---
+``` JavaScript
 // controllers/userController.js
 
 const User = require('../models/User');
@@ -47,6 +50,7 @@ exports.login = async (req, res) => {
   }
 };
 
+JavaScript
 // Example of an isAdmin middleware
 exports.isAdmin = (req, res, next) => {
   if (req.user && req.user.isAdmin) {
@@ -56,3 +60,4 @@ exports.isAdmin = (req, res, next) => {
   }
 };
 ```
+---
