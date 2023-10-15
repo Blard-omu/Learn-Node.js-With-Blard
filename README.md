@@ -164,5 +164,6 @@ This code creates an HTTP server that responds to GET, POST, and DELETE requests
 
 ---
 
-NB: The content will be updated periodically @BLARD_DEV 2023
----
+
+--NB: This content will be updated periodically @BLARD_DEV 2023
+
