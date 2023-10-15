@@ -4,6 +4,9 @@
 
 Node.js is a powerful runtime environment that has gained immense popularity among developers for building server-side applications. In this article, we will explore Node.js from the ground up, covering essential concepts, code snippets, and best practices.
 
+<img src="./assets/4003326_61d2.jpg" width="100%" >
+
+
 ## What is Node.js?
 
 Node.js is an open-source JavaScript runtime environment built on the V8 JavaScript engine by Google. Unlike traditional JavaScript, which runs in web browsers, Node.js allows JavaScript to be executed on the server-side. Its non-blocking, event-driven architecture makes it an excellent choice for building fast and scalable applications.
