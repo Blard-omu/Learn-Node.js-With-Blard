@@ -9,7 +9,7 @@ Node.js is a powerful runtime environment that has gained immense popularity amo
 
 ## What is Node.js?
 
-Node.js is an open-source JavaScript runtime environment built on the V8 JavaScript engine by Google. Unlike traditional JavaScript, which runs in web browsers, Node.js allows JavaScript to be executed on the server-side. Its non-blocking, event-driven architecture makes it an excellent choice for building fast and scalable applications.
+Node.js is an open-source JavaScript runtime environment built on the V8 JavaScript engine by Google. Unlike traditional JavaScript, which runs in web browsers, Node.js allows JavaScript to be executed on the server-side(outside of the browser). Its non-blocking, event-driven architecture makes it an excellent choice for building fast and scalable applications.
 
 Node.js is commonly used for web servers, APIs, real-time applications, and more. Let's dive into some fundamental aspects of Node.js.
 
