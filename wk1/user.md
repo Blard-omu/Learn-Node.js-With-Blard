@@ -50,7 +50,6 @@ exports.login = async (req, res) => {
   }
 };
 
-JavaScript
 // Example of an isAdmin middleware
 exports.isAdmin = (req, res, next) => {
   if (req.user && req.user.isAdmin) {
@@ -59,5 +58,6 @@ exports.isAdmin = (req, res, next) => {
     res.status(403).json({ message: 'Access denied. You are not an admin.' });
   }
 };
+
 ```
 ---
