@@ -126,4 +126,3 @@ const secretKey = process.env.SECRET_KEY;
 ```
 
 This setup makes it easy to manage sensitive information and configuration options without exposing them in your codebase.
-
