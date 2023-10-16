@@ -1,0 +1,1 @@
+In web applications, Models represent the data structures and interact with the database. Let's create a simple user schema as an example.
