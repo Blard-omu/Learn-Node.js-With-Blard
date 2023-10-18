@@ -133,7 +133,7 @@ You can then require and use it in your Node.js application.
 
 ## Error Handling in Node.js
 
-Error handling is crucial in Node.js applications. Use `try-catch` blocks or asynchronous error handling to manage exceptions effectively.
+Error handling is crucial in Node.js applications. We can use `try-catch` blocks or asynchronous error handling to manage exceptions effectively.
 
 **Example: Asynchronous error handling with callbacks**
 
@@ -149,8 +149,7 @@ fs.readFile('nonexistent-file.txt', (err, data) => {
 });
 ```
 
-## Building an HTTP Server: GET, POST, DELETE
-
+## Building HTTP Server
 Node.js excels at creating HTTP servers. You can build a server that handles various HTTP methods such as GET, POST, and DELETE. Here's a simplified example:
 
 ```javascript
