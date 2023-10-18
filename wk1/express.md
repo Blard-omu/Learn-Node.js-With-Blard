@@ -44,7 +44,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello, Express!');
+  res.send('Hello, Express running...');
 });
 
 app.listen(port, () => {
@@ -104,7 +104,7 @@ In your `.env` file, you can define environment-specific variables. For example:
 
 ```env
 PORT=3000
-DB_URL=mongodb://localhost/mydb
+DB_CONNECTION_URL=mongodb://localhost/mydb
 SECRET_KEY=mysecret
 ```
 
@@ -124,5 +124,6 @@ const port = process.env.PORT || 3000;
 const dbUrl = process.env.DB_URL;
 const secretKey = process.env.SECRET_KEY;
 ```
-
 This setup makes it easy to manage sensitive information and configuration options without exposing them in your codebase.
+
+

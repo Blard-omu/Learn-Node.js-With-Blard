@@ -1,11 +1,11 @@
 // // console.log("Hello Blard from Node.js")
 // // console.log(process);
 
-// const math = require("./example");
+const {addNum, minusNum} = require("./example");
 // const {greetMe, greetMe1, greetMe2} = require("./greet");
 
-// math.addNum(1,2);
-// math.minusNum(2,7);
+addNum(1,2);
+minusNum(2,7);
 // greetMe("Blard") // Gooday Blard
 // greetMe1("Nonso") // Gooday Nonso
 
@@ -32,17 +32,65 @@ const path = require('path')
 const fs = require('fs')
 
 // Reading file with fs.readFile()
-const filePath1 = 'text.txt'
-fs.readFile(filePath1, 'utf8', (err, data)=>{
-    if(err){
-        console.log('An error occur while reading the file: ', err)
-    }else{
-        console.log(data)
-    }
-})
+// const filePath1 = 'text.txt'
+// fs.readFile(filePath1, 'utf8', (err, data)=>{
+//     if(err){
+//         console.log('An error occur while reading the file: ', err)
+//     }else{
+//         console.log(data)
+//     }
+// })
 
 // Assignment
 // Using "fs", write into the text.txt file and log the new data to the console.
 
-console.log(global);
+
+// Solution
+// const fs = require('fs'); 
+
+// Data to be written
+const data = 'Hello, Tony just arrived';
+
+// Writing to the file
+// fs.writeFile('text.txt', data, (err) => {
+//     if (err) {
+//         console.error('Error writing to file:', err);
+//     } else {
+//         console.log('Data has been written to text.txt');
+//     }
+// });
+
+// // Logging the data to the console
+// console.log('Data:', data);
+
+
+// // http server
+// const http = require('http');
+// const server = http.createServer((req, res) =>{
+//     res.writeHead(200, {'Content-Type': 'text/plain'});
+//     res.end('Hello! Node server is up and running!');
+// })
+
+// const PORT = 8080
+
+// server.listen(PORT, () =>{
+//     console.log(`Server is running on port ${PORT}`)
+// })
+
+
+// Using third-party modules/libraries/frameworks
+// npm install <package_name>
+// express
+const express = require('express')
+
+
+
+
+
+
+
+
+
+
+
 
