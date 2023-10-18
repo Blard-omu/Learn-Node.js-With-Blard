@@ -286,7 +286,7 @@ For more complex applications, you should separate your code into different file
 
 For more complex applications, you should separate your code into different files, such as routes, controllers, models, etc. Express makes it easy to do this.
 
- - **Routes**
+ ## **Routes**
 - Routes define the endpoints of our API and specify the HTTP methods (e.g., GET, POST) that can be used to access them.
 e.g
 - Blog routes:
@@ -321,7 +321,7 @@ module.exports = router;
 
 In this example, we create routes for user registration and login, and we delegate the handling of these routes to the `userController`.
 
-- **Controllers**
+## **Controllers**
 - Controllers contain the code for the controllers of our API. Controllers handle incoming requests and send responses to the client.
 A controller is a function that is called when a route is matched, and it is responsible for handling the request and sending the response.
 
@@ -344,7 +344,7 @@ Controllers receive the request from the router, interact with the Model (e.g., 
 Middlewares are functions that can be inserted into the request-response cycle to perform tasks like authentication, validation, or logging. They can be applied globally or to specific routes.
 
 
-- **Models** 
+## **Models** 
 A data model is a representation of the data that will be stored in the database and the relationships between that data. We'll be using Mongoose to define our schema.
 
 ## Creating Models with Mongoose
